@@ -1,6 +1,6 @@
 # Site Info
 title: Codinfox Lanyon
-tagline: 'A Jekyll theme based on Lanyon'
+tagline: '매일 쓰고 싶은 개발 일기장'
 description: 'A Jekyll theme adapted from <a href="http://lanyon.getpoole.com/" target="_blank">Lanyon</a>. Made by <a href="http://codinfox.github.io" target="_blank">@codinfox</a>.'
 baseurl: ""
 url: http://skins346.github.io
@@ -17,44 +17,42 @@ sass:
   style: compressed
   sass_dir: _scss    
 paginate: 5
-paginate_path: '/blog/page:num'
+paginate_path: '/개발/page:num'
 permalink: pretty
 
 version: 1.0.0
 
 # About/contact
 author:
-  name: Codinfox
-  description: A passionate <strong>developer and researcher</strong>, learning to be a giant.
+  name: Martin
+  description: <strong>안드로이드 앱 개발</strong>을 주로 하고 <strong>기타</strong> 치는 걸 좋아합니다.
   gravatar: 3c2986ad7ac1f2230ea3596f44563328 # md5 hash of your email address
   contact:
-    linkedin:  https://www.linkedin.com/in/lizhihao
-    github:    https://github.com/codinfox
-    # facebook:  <hide>
-    twitter:   https://twitter.com/Li_Zhihao
-    weibo:     http://weibo.com/41173780
+    linkedin:  https://www.linkedin.com/in/young-song-kim-89590714a/
+    github:    https://github.com/skins346
+    facebook:  https:/www.facebook.com/skins346
     email:     http://www.google.com/recaptcha/mailhide/d?k=01I3lZFiZYng9N3QxYEtsDaQ==&c=31wAnZkuKqcG0ATAqJN8Z3ln5kkYLA9TwkGc-IbygpM=
 
 # Navigation (2nd level links supported)
 nav:
   Home:           
     - '/'
-  Blog:           
-    - '/blog/'
-    - { Categories: '/blog/categories/' }
-    - { Tags: '/blog/tags/' }
+  개발:           
+    - '/개발/'
+    - { Categories: '/개발/categories/' }
+    - { Tags: '/개발/tags/' }
   About:          
     - '/about/'
   Github Project: 
-    - 'http://codinfox.github.io/'
+    - 'http://github.com/skins346'
 
 # Where are tags and categories displayed
-tag_page: '/blog/tags/'
-category_page: '/blog/categories/'
+tag_page: '/개발/tags/'
+category_page: '/개발/categories/'
 
 hero:
-  image: /public/img/we_will_be_giants_by_yalestewart.jpg
-  caption: Original Artwork &copy; <a href="http://yalestewart.deviantart.com/art/We-Will-Be-Giants-370176475">Yale Stewart</a>
+  image: /public/img/home.jpeg
+  caption: 2017.08.29
 
 # Puglins
 mathjax: true # whether support mathjax
