@@ -1,13 +1,13 @@
 # Site Info
 title: Codinfox Lanyon
-tagline: 'Hei,To be Better Man'
-description: 'A Jekyll theme adapted from <a href="http://lanyon.getpoole.com/" target="_blank">Lanyon</a>. Made by <a href="https://githubziven.github.io" target="_blank">@codinfox</a>.'
+tagline: 'A Jekyll theme based on Lanyon'
+description: 'A Jekyll theme adapted from <a href="http://lanyon.getpoole.com/" target="_blank">Lanyon</a>. Made by <a href="http://codinfox.github.io" target="_blank">@codinfox</a>.'
 baseurl: ""
-url: https://skins346.github.io
+url: http://skins346.github.io
 logo: '/public/logo.png'
 
 # Site configurations
-plugins:
+gems:
   - jekyll-paginate
 markdown: kramdown
 kramdown:
@@ -24,16 +24,16 @@ version: 1.0.0
 
 # About/contact
 author:
-  name: 哲吻先生
-  description: IT Engineer, like  <strong>photography</strong>,</br>愿阳光中是个孩子,风雨中是个大人.
-  gravatar: 71fa42ba3a1acebd440552ccb0fdb2fc # md5 hash of your email address
+  name: Codinfox
+  description: A passionate <strong>developer and researcher</strong>, learning to be a giant.
+  gravatar: 3c2986ad7ac1f2230ea3596f44563328 # md5 hash of your email address
   contact:
-  # linkedin:  https://www.linkedin.com/in/wei-zhong-b10955146/
-    github:    https://github.com/githubziven
+    linkedin:  https://www.linkedin.com/in/lizhihao
+    github:    https://github.com/codinfox
     # facebook:  <hide>
-    #twitter:   https://twitter.com/Li_Zhihao
-    #weibo:     http://weibo.com/41173780
-    email:     http://www.google.com/recaptcha/mailhide/d?k=01QqGF9_GZxJOnroYap3cruQ==&c=jspxsuzRvQSEqOHIIPQAKMCJZ4KtsWknqoKmDvhO7Hc=
+    twitter:   https://twitter.com/Li_Zhihao
+    weibo:     http://weibo.com/41173780
+    email:     http://www.google.com/recaptcha/mailhide/d?k=01I3lZFiZYng9N3QxYEtsDaQ==&c=31wAnZkuKqcG0ATAqJN8Z3ln5kkYLA9TwkGc-IbygpM=
 
 # Navigation (2nd level links supported)
 nav:
@@ -46,7 +46,7 @@ nav:
   About:          
     - '/about/'
   Github Project: 
-    - 'https://github.com/githubziven'
+    - 'http://codinfox.github.io/'
 
 # Where are tags and categories displayed
 tag_page: '/blog/tags/'
@@ -58,5 +58,6 @@ hero:
 
 # Puglins
 mathjax: true # whether support mathjax
-google_analytics_token: 'UA-102678965-1' # leave blank if you don't want google analytics
-disqus_short_name: 'zivenday-me-1' # leave blank if you don't want disqus
+google_analytics_token: 'UA-00000000-1' # leave blank if you don't want google analytics
+disqus_short_name: 'your_short_name' # leave blank if you don't want disqus
+
