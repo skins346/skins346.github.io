@@ -39,16 +39,22 @@ nav:
     - '/'
   개발:           
     - '/개발/'
-    - { Categories: '/개발/categories/' }
-    - { Tags: '/개발/tags/' }
+    - { Java: '/개발/Java/' }
+    - { RxJava: '/개발/RxJava/' }
+    - { Kotlin: '/개발/Kotlin/'}
+    - { Node.js: '/개발/Node.js/'}
+    - { JavaScript: '개발/JavaScript.js/'}
   About:          
     - '/about/'
   Github Project: 
     - 'http://github.com/skins346'
 
 # Where are tags and categories displayed
-tag_page: '/개발/tags/'
-category_page: '/개발/categories/'
+Java_page: '/개발/Java/'
+RxJava_page: '/개발/RxJava/'
+Kotlin_page: '/개발/Kotlin/'
+Node.js_page: '/개발/Node.js/'
+JavaScript_page: '/개발/JavaScript/'
 
 hero:
   image: /public/img/home.jpeg
