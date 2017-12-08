@@ -45,6 +45,9 @@ nav:
     - { Tags: '/blog/tags/' }
   About:          
     - '/about/'
+  개발:
+    - '/개발/'
+
   Github Project: 
     - 'http://codinfox.github.io/'
 
